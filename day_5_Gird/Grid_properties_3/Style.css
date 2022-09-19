@@ -1,0 +1,106 @@
+/* *{
+    background-color: gray;
+} */
+
+.container{
+    /* background-color: rgba(245, 245, 245, 0.427); */
+    background-image: url('11.jpg');
+    width: 1450px;
+    height: 1600px;
+    margin: 20px;
+    border-radius: 20px;
+
+    display: grid;
+    /* grid-template-columns: 133px 133px 133px; */
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: 133px 133px 133px; */
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    
+
+}
+.item{
+    margin: 10px;
+    /* background-color: rgba(14, 162, 147, 0.659); */
+    background-image: url('4.jpg');
+    border-radius: 30px;
+}
+
+#One{
+    /* background-color: gray; */
+    background-image: url('6.jpg');
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* grid-column:1/-1;  its also works like above two lines i.e. it will span all area 1to last i.e. -1  */
+
+}
+.navbar{
+
+}
+
+.item .navbar ul {
+    background-color:rgb(202, 183, 221);
+    /* background-image: url('5.jpg'); */
+    margin: 25px;
+    border: solid rgba(220, 224, 147, 0.605) 5px;
+    border-radius: 25px;
+
+}
+
+.list a{
+    text-decoration: none;
+
+}
+#One li{
+     /* background-color: blue; */
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+#Two {
+    background-color: rgb(215, 244, 244);
+    /* background-image: url('14.jpg'); */
+    /* background-repeat: no-repeat; */
+    display: gird;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+/* #Two img{
+    height: 400px;
+    width: 250px;
+    padding: 20px;
+    border: black 2px solid; 
+} */
+
+#Five{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+#Six{
+    /* background-color: pink; */
+    background-image: url('12.jpg');
+    display: grid;
+    /* height: 100px;
+    width: 1200px; */
+    height: 200px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#Seven{
+    /* background-color: black; */
+    background-image: url('6.jpg');
+   padding: 10px;
+    color: white;
+    height: 150px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+

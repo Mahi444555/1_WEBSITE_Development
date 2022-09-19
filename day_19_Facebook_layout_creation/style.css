@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(245, 245, 246);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.flex-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.name-content {
+    margin-right: 8rem;
+}
+
+
+.name-content .logo {
+    font-size: 3.5rem;
+    color: #1877f2
+}
+
+.name-content p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 2rem;
+    width: 540px;
+    height: 380px;
+    border-radius: 0.8rem;
+}
+
+form input {
+    outline: none;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.8rem;
+    font-size: 1em;
+}
+
+form input:focus {
+    border: 2px solid rgb(24, 93, 195);
+}
+
+form .login {
+    outline: none;
+    border: none;
+    background: #1877f2;
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+form a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 0.8rem;
+    color: #1877f2
+}
+
+form hr {
+    background: #f7f7f7;
+    margin: 1rem;
+}
+
+form .create-account {
+    outline: none;
+    border: none;
+    background: #06b909;
+    padding: 0.8rem 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    width: 75%;
+    margin: 0 auto;
+}

@@ -1,0 +1,26 @@
+
+.container{
+    background-color: aqua;
+    /* background-image: url('2.jpg'); */
+    height: 500px;
+    width: 1500px;
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item{
+    background-color: pink;
+    border: 1px solid black;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.item img{
+    height:300px ;
+    width:200px ;
+    border-radius: 10px;
+}

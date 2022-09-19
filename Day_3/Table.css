@@ -1,0 +1,52 @@
+*{
+    background-color: aquamarine;
+    
+}
+
+table,tr,th,td{
+   border:black solid 1px;
+   padding: 20px;
+   margin: 25px;
+}
+#rr,img{
+    border-radius: 25px;
+}
+.head:hover{
+    background-color:skyblue;
+    color:yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.one td:hover{
+    background-color: pink;
+    color:yellow;
+}
+.two td:hover{
+    background-color:yellow;
+    color: red;
+}
+
+.three td:hover{
+    background-color:lightpink;
+    color: red;
+}
+.four td:hover{
+    background-color:rosybrown;
+    color: red;
+}
+.five td:hover{
+    background-color:lightgreen;
+    color: red;
+}
+.six td:hover{
+    background-color:sandybrown;
+    color:red;
+}
+.seven td:hover{
+    background-color:;
+    border: red solid 3px;
+    text-align: center;
+    
+}
+
+

@@ -1,0 +1,31 @@
+.container{
+    background-color: bisque;
+    height: 700px;
+    width: 900px;
+    display: grid;
+    /* grid-template-columns: 133px 133px 133px ;
+    grid-template-rows: 133px 133px 133px; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-row:repeat(3,1fr);
+    row-gap: 25px;
+    column-gap: 25px;
+}
+.item{
+    background-color: aqua;
+    height:133px;
+    width: 133px;
+}
+.item1{
+    background-color: black;
+     height: 133px;
+    /* width: 133px; */ 
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+
+    grid-column: 1/span 3;
+}
+
+.item8{
+    background-color:blue;
+    grid-column: 1/-1;
+}

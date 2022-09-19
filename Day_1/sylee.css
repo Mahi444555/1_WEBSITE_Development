@@ -1,0 +1,65 @@
+/* .container1{
+    display: inline-block;
+} */
+.division{
+    background-color: yellow;
+    height: 300px;
+    width: 700px;
+    display: inline-block;
+}
+
+.box{
+    background-color: blue;
+    height: 70px;
+    width: 70px;
+    border: solid black 2px;
+    margin: 5px;
+    display: inline-block;
+    
+}
+.innerbox{
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.two{
+    background-color:red;
+    height: 100px;
+    width: 500px;
+}
+#inner{
+    background-color:green;
+    height:50px;
+    width: 200px;
+    position: relative;
+    top: 25px;
+    left: 50px;
+   
+}
+
+.division:hover{
+    background-color: pink;
+}
+.box:hover{
+    background-color: white;
+    text-align: center;
+}
+
+.div2{
+    background-color:black;
+    height: 1000px;
+    width: 700px;
+    float:right;
+    position: relative;
+    
+}
+.div2 #first{
+    position: fixed;
+    right: 30px;
+}
+.div2:hover{
+    background-color:aquamarine;
+    border: 1px black solid;
+}
+
+

@@ -1,0 +1,136 @@
+.navbar{
+    background-color: aqua;
+    height: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.navbar ul {
+    margin: 10px;
+}
+.navbar .logo{
+    background-color: green;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.logo img{
+    height:30px;
+     width:80px;
+     border-radius: 25px;
+}
+
+.cen{
+    text-emphasis: left;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline-block;
+   
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 30px;
+    position: relative;
+    bottom: 5px;
+   
+}
+ .search{
+    float: right;
+    margin-right: 50px; 
+    padding-top :10px; 
+ }
+ .search input:hover{
+  border-color:yellow;
+ }
+ input{
+    border-radius: 14px;
+    text-align: center;
+    border: 3px solid black;
+}
+.srcbtn{
+    border-radius: 30px;
+    width:50px;
+    height: 25px;
+}
+
+.navbar li a:hover {
+   border-radius: 25px;
+background-color: skyblue;
+color:green;
+
+
+}
+
+.sidbar{
+    background-color:pink;
+    width: 200px;
+    height:700px;
+    
+    
+}
+.sidbar li{
+    list-style: none;
+    padding: 10px;
+}
+.sidbar li:hover{
+    background-color:lawngreen;
+    width: 70px;
+    border-radius: 25px;
+}
+.sidbar li a{
+    text-decoration: none;
+}
+
+/* .container{
+    background-color: ;
+    display: flex;
+    
+}
+.sidbar,.para{
+    margin: 10px;
+   
+}
+.container .para{
+    
+    width: 1100px;
+    height: 300px;
+   
+} */
+
+ .demotext{
+    position: absolute; /*it access from its abosulte parent and chage it postion*/
+    margin-left: 15%;
+    margin-top: -700px;
+    text-align: justify;
+ }
+ 
+ label{
+    width: 70px;
+    color: red;
+    display: inline-block;
+ }
+
+  .tabl{
+   
+   position: absolute;
+   margin-left: 300px;
+   margin-top: -100px;
+  }
+.tabl tr th{
+    border: green solid 4px;
+    width: 100px;
+    height: 50px;
+}
+  .tabl tr td{
+    border:blue solid 2px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }

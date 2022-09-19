@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+#output{
+
+}
+ul{
+    background-color: white;
+    border: 2px solid black;
+}
+li{
+    /* color: red; */
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    border: 2px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-shadow: 5px 2px 5px;
+    /* align-items: center; */
+}
+img{
+    border-radius: 10px;
+    
+}

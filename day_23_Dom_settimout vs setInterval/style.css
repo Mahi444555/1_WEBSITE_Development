@@ -1,0 +1,16 @@
+body{
+    background-color:rgba(175, 98, 247, 0.315)
+}
+
+#footer{
+    /* border: 2px solid blue; */
+    /* text-align: center; */
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    background-color:violet;
+    display: flex;
+    justify-content: center;
+    
+    
+}

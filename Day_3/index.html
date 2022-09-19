@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buttons_in_html</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1>images buttons and table tags anchor tags</h1>
+   
+     <a href="https://www.youtube.com/watch?v=sL3kLxsy-Lg"> <img src="1.jpg" alt="emoji"></a>
+    <br>
+    <button type="button">click me</button>
+
+    <button type="submit" onclick="alert('Wrong entery')">submit</button>
+    <button type="submit" onclick="prompt('enter name')">reset</button>
+    <button type="clear" disabled>clear</button>
+
+<br><br>
+    <div>
+        <form action="">
+            <fieldset>
+                <legend >form tag</legend>
+                <label for="">name:</label>
+                <input type="text" placeholder="name">
+                <label for="">contact</label>
+                <input type="tel" placeholder="+91######" value="">
+                <br><br>
+                <button type="submit" onclick="alert('all filed are mendatory!')">submit</button>
+                <button type="submit" onclick="prompt('Enter you number!')">click here</button>
+                <button type="cancle" disabled >cancel</button>
+            </fieldset>
+        </form>
+
+        <br><br>
+
+        <form action="">
+            <fieldset>
+                <legend>Form</legend>
+               
+                    <label for="submit">Name:   </label><br>
+                    <input type="text" placeholder="Mr./Ms." value=""> 
+                    <br><br>
+                    <label for="">Class:    </label><br>
+                    <input type="number" placeholder="XI/XII" value="">
+                    <br><br>
+                    <label for="">contact:  </label><br>
+                    <input type="number" placeholder="+91####" value="">
+                    <br><br>
+                    <label for="">upload:   </label><br>
+                    <input type="file" placeholder="click here">
+                    <label for="">date</label>
+                    <input type="date" placeholder="date" value="">
+                    <label for="">male</label>
+                    <input type="checkbox">
+                    <label for="">female</label>
+                    <input type="checkbox">
+                <br><br>
+                    <button type="submit" onclick="alert('Warning!')">submit</button>
+                    <button type="reset" onclick="prompt('enter phone number!')">reset</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

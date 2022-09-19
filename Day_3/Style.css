@@ -1,0 +1,11 @@
+*{
+    background-color: aquamarine;
+}
+
+  img{
+    border-radius: 25px;
+    
+}
+img:hover{
+    border:black solid 1px;
+}

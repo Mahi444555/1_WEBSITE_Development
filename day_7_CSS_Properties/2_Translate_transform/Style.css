@@ -1,0 +1,29 @@
+.container{
+    background-color: aqua;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.box{
+    background-color: black;
+    height: 133px;
+    width: 133px;
+    /* transform: rotate(45deg); used to rotate in degree */
+    /* transform: scale(2); used to make it's scale or size bigger*/
+    /* transform: skew(40deg); used to move in screved wise  */
+    /* transform: translatex(100px);  used to move in x-axis wise*/
+    /* transform: translatey(100px); used to move y-axis vertically */
+
+}
+h1{
+    
+}
+.box:hover{
+    transform: scale(2);
+    transform: translatex(100px);
+    /* transform: translatey(-50px); */
+    transform: rotate(50deg);
+}

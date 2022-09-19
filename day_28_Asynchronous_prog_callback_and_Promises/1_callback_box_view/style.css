@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    transition: all 0.5s;
+}
+
+
+/* this circle class we acessing from javascript where we assign ther to html tag and now 
+making body of cirlce class in css */
+
+.circle{ 
+border-radius: 50%;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li id="first">1</li>
+            <li id="two">2</li>
+            <li id="three">3</li>
+            <li>4</li>
+        </ul>
+    </div>
+
+    <script>
+        let ele = document.getElementById("first");
+        console.log(ele);
+        let part = ele.parentElement;
+        console.log(part);
+
+        document.getElementById("two").onclick= mahi;
+        function mahi(){
+            document.getElementById("two").innerHTML='mahesh';
+        }
+
+        document.getElementById("three").onmouseover = xyz;
+        
+        function xyz(){
+            this.style.background="blue";
+        }
+
+    </script>
+</body>
+</html>

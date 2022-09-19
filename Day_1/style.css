@@ -1,0 +1,48 @@
+
+.container{
+    height: 1400px;
+    width: 900px;
+    background-color: aqua;
+    color: brown;   /*color apply to all of items in div*/
+}
+.box{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    display: inline-block;
+}
+
+/* we have to  use static to  box3 then use position proterty  */
+/* #box3{
+    position:static;
+}
+it used to to staty static as it is  */
+
+/* #box3{
+position: relative;
+top: 20px;
+right: 3px;
+} 
+positoin relative used to to change box from it's original postion  */
+
+/* #box3{
+    border-color:red;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+     
+    proterty position works or apply from it's absoute imediate parrent box 
+} */
+/* 
+#box3{
+    position:fixed;
+    right: 10px;
+//these positon fixed used to fixed the box or image permanantly fixed with original page i.e. document
+} */
+
+/* #box3{
+    position: sticky;
+    top: 10px;  
+    //these position sticky used to stick the box or image at it's imediate parent permanantly
+} */

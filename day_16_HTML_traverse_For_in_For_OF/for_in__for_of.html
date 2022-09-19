@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for in for of loops</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="2.jpg">
+    <script src="p.js"></script>
+</head>
+<body>
+    <h1>loops in javascript i.e. for in and for of loop</h1>
+
+
+    <script>
+        document.write("this is for_of loop used iterating object keys and it's values  ");
+        document.write(".....");
+        const arr = [10,20,30,'mahesh','jadhav',50];
+        let i;
+        for(i of arr){
+            console.log(i);
+            document.write(i + "\t");
+        }
+
+        document.write("this is for_in loop used iterate through the keys of an object");
+        document.write("....");
+        const arr2 = ['a', 'c', 'd', 'e', 1];
+        for(let x in arr2){
+            document.write(arr2[x]);
+            console.log(arr2[x]);
+        }
+    </script>
+</body>
+</html>
